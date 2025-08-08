@@ -1,10 +1,11 @@
 name: Android Instrumented Data Tests
-
+on:
+  workflow_dispatch:
 permissions:
   contents: read
 
-on:
-  pull_request:
+#on:
+ # pull_request:
 
 jobs:
   instrumented-tests:
